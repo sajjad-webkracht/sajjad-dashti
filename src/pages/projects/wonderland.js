@@ -9,7 +9,7 @@ import Brief from '../../components/project_brief';
 import Description from '../../components/project_description';
 import ReactPlayer from 'react-player';
 import UIVideo from '../../videos/wonderland_presentation.mp4';
-import Map from '../../images/wonderland/wonderland-map.png';
+import Map from '../../images/wonderland/wonderland-map-edited.png';
 import Arivaman from '../../images/wonderland/arivaman.png';
 import ProjectNavigation from '../../components/project_navigation';
 import Seo from '../../components/seo'
