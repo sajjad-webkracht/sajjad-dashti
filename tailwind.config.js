@@ -1,11 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    `./src/pages/**/*.{js,jsx,ts,tsx}`,
-    `./src/components/**/*.{js,jsx,ts,tsx}`,
-  ],
+  purge: {
+    content: [
+      `./src/pages/**/*.{js,jsx,ts,tsx}`,
+      `./src/components/**/*.{js,jsx,ts,tsx}`,
+    ],
+    safelist: [
+      'overflow-hidden',
+    ],
+  },
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
