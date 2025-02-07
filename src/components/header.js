@@ -40,7 +40,7 @@ const Header = () => {
             <div className={`fixed top-0 py-6 pl-6  right-0 w-full h-svh flex flex-col justify-between bg-zinc-900 shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                 <div>
                     <button className="w-full bg-zinc-800 px-4 py-4" onClick={toggleMenu}>
-                        <img src={Back} alt="Menu Icon" />
+                        <img src={Back} alt="Menu Icon" className='h-5' />
                     </button>
                     <nav className="mt-10 flex flex-col items-start">
                         <Link to="/about" className="text-zinc-50 py-2 text-lg">About</Link>
