@@ -9,6 +9,7 @@ import Brief from '../../components/project_brief';
 import Description from '../../components/project_description';
 import ReactPlayer from 'react-player';
 import UIVideo from '../../videos/ecco_presentation.mp4';
+import FigmaPlugin from '../../videos/figma_plugin.mp4';
 import Icons from '../../images/ecco/icons.svg';
 import ProjectNavigation from '../../components/project_navigation';
 import Seo from '../../components/seo'
@@ -88,13 +89,28 @@ const Ecco = () => {
                         </div>
 
                         <div className='mt-20'>
-                            <h2 className='text-2xl font-bold mb-3 text-zinc-50'>Development</h2>
+                            <h2 className='text-2xl font-bold mb-3 text-zinc-50'>Website Development</h2>
                             <p className='text-zinc-50 mb-2'>
                                 The Ecco Icon website is developed using Gatsby, a React-based static site generator. For styling, I used Tailwind CSS, and for animated icons, I integrated the Dotlottie-react library. The site is proudly hosted on Netlify.
                             </p>
                             <p className='text-zinc-50'>
                                 Initially, I planned to let users change the color of animated icons directly on the platform. However, the results were often unpredictable and inconsistent across different icons and Lottie libraries. Due to these limitations, I decided to remove the feature and instead provide the .aep file, allowing users to customize colors in After Effects. Interestingly, this approach aligns with what many major paid animated icon packs offer.
                             </p>
+                        </div>
+
+                        <div className='mt-20'>
+                            <h2 className='text-2xl font-bold mb-3 text-zinc-50'>Figma Plugin Development</h2>
+                            <p className='text-zinc-50'>
+                            I developed a Figma plugin for Ecco Icon to help designers easily incorporate the Ecco Icon pack into their workflow. This plugin allows users to add SVG versions of the icons directly to their designs. The icons are hosted on GitHub Pages, and I designed the plugin's styling to be perfectly consistent with the website.
+                            </p>
+                            <div className='mt-8'>
+                                <ReactPlayer
+                                    url={FigmaPlugin}
+                                    controls={true}
+                                    width='100%'
+                                    height='100%'
+                                />
+                            </div>
                         </div>
 
                         <div className='mt-20'>
