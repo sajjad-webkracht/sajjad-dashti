@@ -84,8 +84,8 @@ const Hathor = () => {
 
                         <div className='mt-20'>
                             <ProjectNavigation
-                                url={'/projects/winee3'}
-                                title={'Check Winee3 Project'}
+                                url={'/projects/lilly'}
+                                title={'Check Lilly Icon Project'}
                             />
                         </div>
                         

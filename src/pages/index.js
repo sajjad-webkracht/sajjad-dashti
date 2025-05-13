@@ -15,8 +15,6 @@ const IndexPage = () => {
       <Header />
       <Hero />
       <Featured />
-      <Cases />
-      <Experiences />
       <Community />
       <Footer />
       <Scrollup />

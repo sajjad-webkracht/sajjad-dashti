@@ -11,6 +11,8 @@ import ReactPlayer from 'react-player';
 import UIVideo from '../../videos/ecco_presentation.mp4';
 import FigmaPlugin from '../../videos/figma_plugin.mp4';
 import Icons from '../../images/ecco/icons.svg';
+import Userflow from '../../images/ecco/userflow.svg';
+import UserflowPhone from '../../images/ecco/userflow_phone.svg';
 import ProjectNavigation from '../../components/project_navigation';
 import Seo from '../../components/seo'
 
@@ -43,8 +45,8 @@ const Ecco = () => {
                     <div className='w-full lg:w-1/4'>
                         <Description
                             role={'Graphic Designer, UI/UX Designer, Motion Designer, Developer'}
-                            duration={'July 2024 - Present'}
-                            description={'Ecco Icons is my latest major project—a platform showcasing animated icons designed in After Effects and exported via Lottie. It’s a free project, supported entirely by donations.'}
+                            duration={'July 2024 - February 2025'}
+                            description={'Ecco Icons is a platform showcasing animated icons designed in After Effects and exported via Lottie. It’s a free project, supported entirely by donations.'}
                             linkActive={true}
                             link={'https://eccoicon.com'}
                             title={'Visit Ecco Icon'}
@@ -52,7 +54,7 @@ const Ecco = () => {
                     </div>
                     <div className='w-full lg:w-3/4'>
                         <Brief
-                            brief={'Ecco Icons is my latest major project—a platform featuring animated icons crafted in After Effects and exported using Lottie. It’s a free project, sustained entirely by donations. The animations are minimalistic, monochromatic, and perfectly suited for enhancing the UI of apps and websites.'}
+                            brief={'Ecco Icons is a platform featuring animated icons crafted in After Effects and exported using Lottie. It’s a free project, sustained entirely by donations. The animations are minimalistic, monochromatic, and perfectly suited for enhancing the UI of apps and websites.'}
                             problem={'Microinteractions and small details matter—they’re what set superstar apps apart from mediocre ones. Unfortunately, many animated icon packs are hidden behind paywalls.'}
                             solution={'Ecco Icons aims to address this issue by offering an ever-expanding collection of minimal animated icons that are 100% free—and will remain free forever. The project is sustained solely by donations.'}
                         />
@@ -69,6 +71,17 @@ const Ecco = () => {
                                     width='100%'
                                     height='100%'
                                 />
+                            </div>
+                        </div>
+
+                        <div className='mt-20'>
+                            <h2 className='text-2xl font-bold mb-3 text-zinc-50'>User Flow</h2>
+                            <p className='text-zinc-50 mb-2'>
+                                A good product supports every step of the user journey—not just through its website, but wherever users work. Ecco Icon extends beyond the web with tools built for real workflows. The React library lets developers easily integrate static icons into their projects and customize colors directly in code—no need to visit the site. For designers, the Figma plugin makes it simple to insert icons straight into their designs without leaving Figma. The entire experience is designed to be as frictionless as possible: no sign-ups, no paywalls—just fast, focused access to great icons.
+                            </p>
+                            <div className='mt-8 bg-zinc-900 p-4 md:p-10'>
+                                <img src={Userflow} alt="User Flow" className='w-full h-auto hidden md:block' />
+                                <img src={UserflowPhone} alt="User Flow" className='w-full h-auto block md:hidden' />
                             </div>
                         </div>
 
@@ -114,6 +127,31 @@ const Ecco = () => {
                         </div>
 
                         <div className='mt-20'>
+                            <h2 className='text-2xl font-bold mb-3 text-zinc-50'>React Library Development</h2>
+                            <p className='text-zinc-50'>
+                            I developed a React library to help developers easily integrate static versions of Ecco Icons into their projects—no need to download each icon manually. The library also allows quick color customization directly in code, without the need for graphic software or digging through SVG markup.
+                            </p>
+                            <div className='mt-8'>
+                                <p className='text-zinc-50'>Developers can install the library using npm:</p>
+                                <code className='text-zinc-300 bg-zinc-900 mt-2 p-3 block'>
+                                    npm install react-ecco-static
+                                </code>
+                                <p className='text-zinc-50 mt-5'>Or with yarn:</p>
+                                <code className='text-zinc-300 bg-zinc-900 mt-2 p-3 block'>
+                                    npm install react-ecco-static
+                                </code>
+                                <p className='text-zinc-50 mt-5'>To use the library, developers can import the icon they want to use and render it in their component:</p>
+                                <code className='text-zinc-300 bg-zinc-900 mt-2 p-3 block'>
+                                    import {'{ IconName }'} from 'react-ecco-static';
+                                </code>
+                                <p className='text-zinc-50 mt-5'>To change the color, pass the color prop to the icon component like this:</p>
+                                <code className='text-zinc-300 bg-zinc-900 mt-2 p-3 block'>
+                                    {'<Airplane color="#FF0000" />'}
+                                </code>
+                            </div>
+                        </div>
+
+                        <div className='mt-20'>
                             <h2 className='text-2xl font-bold mb-3 text-zinc-50'>Ongoing Evolution</h2>
                             <p className='text-zinc-50 mb-2'>
                                 This project is never truly "done"—and I hope it never will be. My goal is to continuously expand the icon pack, adding new icons over time.
@@ -128,8 +166,8 @@ const Ecco = () => {
 
                         <div className='mt-20'>
                             <ProjectNavigation
-                                url={'/projects/hathor'}
-                                title={'Check Hathor Project'}
+                                url={'/projects/winee3'}
+                                title={'Check Winee3 Project'}
                             />
                         </div>
                         

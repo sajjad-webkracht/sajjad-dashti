@@ -86,8 +86,8 @@ const Aloisia = () => {
 
                         <div className='mt-20'>
                             <ProjectNavigation
-                                url={'/projects/ecco'}
-                                title={'Check Ecco Icon Project'}
+                                url={'/projects/hathor'}
+                                title={'Check Hathor Project'}
                             />
                         </div>
                         
