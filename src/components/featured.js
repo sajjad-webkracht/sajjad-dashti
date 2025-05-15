@@ -67,7 +67,7 @@ const Cases = () => {
                 <Link to="/projects/winee3" className='case-item'>
                     <Thumbnail src={Winee3} alt="Winee3" title="Winee3" />
                 </Link>
-                <div className='flex flex-col lg:flex-row gap-4 md:gap-8 mt-4 md:mt-8'>
+                <div className='flex flex-col lg:flex-row gap-8 mt-8'>
                     <div className='w-full lg:w-1/2'>
                         <Link to="/projects/wonderland" className='case-item'>
                             <Thumbnail src={Wonderland} alt="Wonderland" title="Wonderland" />
