@@ -4,7 +4,7 @@ import Footer from "../../components/footer"
 import Scrollup from "../../components/scrollup"
 import Button from "../../components/button"
 import { Link } from 'gatsby';
-import MainImage from '../../images/hathor/hathor-thumbnail.png';
+import MainImage from '../../images/Hathor-Thumbnail-v3.png';
 import Brief from '../../components/project_brief';
 import Description from '../../components/project_description';
 import ArtistiTouch from '../../images/hathor/artistic-touch.png';

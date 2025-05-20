@@ -8,7 +8,7 @@ import Aloisia from '../images/aloisia/aloisia-thumbnail.png';
 import Wonderland from '../images/wonderland/wonderland-thumbnail.png';
 import Ecco from '../images/Ecco-Thumbnail.png';
 import Lilly from '../images/lilly/Lilly-Thumbnail.png';
-import Hathor from '../images/hathor/hathor-thumbnail.png';
+import Hathor from '../images/Hathor-Thumbnail-v3.png';
 
 gsap.registerPlugin(ScrollTrigger);
 

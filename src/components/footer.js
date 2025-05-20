@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Dribbble from '../images/dribbble.svg'
+import Behance from '../images/behance.svg'
 import Twitter from '../images/twitter.svg'
 import Instagram from '../images/instagram.svg'
 import Linkedin from '../images/linkedin.svg'
@@ -33,10 +34,10 @@ const Footer = () => {
                     <div>
                         <h3 className="text-base md:text-lg text-zinc-50"><b>Social Media</b></h3>
                         <div className="flex gap-3 mt-2">
-                            <a href="https://dribbble.com/Sajjaddashti" className="hover:scale-125 transition-all duration-75"><img src={Dribbble} alt="My Dribbble page" /></a>
-                            <a href="https://x.com/saggad_dashti" className="hover:scale-125 transition-all duration-75"><img src={Twitter} alt="My X page" /></a>
-                            <a href="https://www.instagram.com/sajjaddashtin?igsh=MXNjaDJ0YzJ5bjht" className="hover:scale-125 transition-all duration-75"><img src={Instagram} alt="my Instagram page" /></a>
-                            <a href="https://www.linkedin.com/in/sajjad-dashti-nezhad-4386ab144/" className="hover:scale-125 transition-all duration-75"><img src={Linkedin} alt="my Linkedin page" /></a>
+                            <a href="https://www.behance.net/saggaddashcc42" className="hover:scale-125 transition-all duration-75"><img src={Behance} alt="My Behance page" className='h-5' /></a>
+                            <a href="https://x.com/saggad_dashti" className="hover:scale-125 transition-all duration-75"><img src={Twitter} alt="My X page" className='h-5' /></a>
+                            <a href="https://www.instagram.com/sajjaddashtin?igsh=MXNjaDJ0YzJ5bjht" className="hover:scale-125 transition-all duration-75"><img src={Instagram} alt="my Instagram page" className='h-5' /></a>
+                            <a href="https://www.linkedin.com/in/sajjad-dashti-nezhad-4386ab144/" className="hover:scale-125 transition-all duration-75"><img src={Linkedin} alt="my Linkedin page" className='h-5' /></a>
                         </div>
                     </div>
                 </div>
